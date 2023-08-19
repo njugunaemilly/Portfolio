@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: rgba(248, 207, 214, 0.915);
+}
+
+.header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10%;
+background: transparent;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: brown;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 50px;
+    transition: 0.5s; 
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(75, 75, 158);
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{
+    max-width: 600px;
+}
+
+.home-content h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.home-content h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: blue;
+    margin-top: 10px;
+}
