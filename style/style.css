@@ -100,7 +100,7 @@ z-index: 100;
     gap: 15px;
 }
 
-.skills-container .card{
+.skills-container .skills-card{
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     border-radius: 5px;
     background: transparent;
@@ -108,25 +108,25 @@ z-index: 100;
     padding: 30px 20px;
 }
 
-.skills-container .card i{
+.skills-container .skills-card i{
     font-size: 60px;
     
 }
 
-.skills-container .card h3{
+.skills-container .skills-card h3{
     font-size: medium;
     color: #444;
     font-size: 22px;
     padding: 10px 0;
 }
 
-.skills-container .card p{
+.skills-container .skills-card p{
     color: #777;
     font-size: 15px;
     line-height: 1.8;
 }
 
-.skills-container .card:hover{
+.skills-container .skills-card:hover{
     box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
     transform: scale(1.0);
 }
@@ -135,4 +135,36 @@ z-index: 100;
     .skills{
         padding: 20px;
     }
+}
+
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+
+.projects-container .project-card{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: transparent;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.projects-container .projects-card h3{
+    font-size: medium;
+    color: #444;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.projects-container .projects-card p{
+    color: #777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.projects-container .projects-card:hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    transform: scale(1.0);
 }
