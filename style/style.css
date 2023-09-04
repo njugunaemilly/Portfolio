@@ -238,7 +238,7 @@ form{
     background: #fff;
     display: flex;
     flex-direction: column;
-    padding: 2vw 4vw;
+    padding: 12vw 15vw;
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
@@ -246,8 +246,9 @@ form{
 
 form h3{
     color: #444;
-    font-weight: 800;
+    font-weight: 500;
     margin-bottom: 20px;
+    padding-bottom: 2px;
 }
 
 form input, form textarea{
