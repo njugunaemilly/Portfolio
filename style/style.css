@@ -98,10 +98,10 @@ z-index: 100;
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #00abf0;
+    border: 2px solid #777;
     border-radius: 50%;
     font-size: 20px;
-    color: #00abf0;
+    color: #777;
     text-decoration: none;
 }
 
